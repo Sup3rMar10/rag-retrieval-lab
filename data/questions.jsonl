@@ -1,0 +1,20 @@
+{"q": "How does gradient descent update parameters?", "answer": "p01"}
+{"q": "What happens if the step size in optimization is set too high?", "answer": "p02"}
+{"q": "Why does normalizing activations per mini-batch help training?", "answer": "p03"}
+{"q": "How can randomly disabling neurons prevent a network from memorizing?", "answer": "p04"}
+{"q": "Why is an ensemble of bootstrapped trees better than one tree?", "answer": "p05"}
+{"q": "Which method fits each new tree to the previous mistakes?", "answer": "p06"}
+{"q": "How do I group unlabeled points around centers?", "answer": "p07"}
+{"q": "How can I shrink the number of features but keep the variance?", "answer": "p08"}
+{"q": "What is the difference between precision and recall?", "answer": "p09"}
+{"q": "Which metric ranks positives above negatives regardless of threshold?", "answer": "p10"}
+{"q": "How do I estimate generalization by rotating validation folds?", "answer": "p11"}
+{"q": "My model is perfect on training data but fails on new data, why?", "answer": "p12"}
+{"q": "Which penalty can set weights exactly to zero?", "answer": "p13"}
+{"q": "How do transformers relate every token to every other token?", "answer": "p14"}
+{"q": "How do language models cope with rare words?", "answer": "p15"}
+{"q": "How do vectors capture that two words mean similar things?", "answer": "p16"}
+{"q": "Why does my loss blow up during training?", "answer": "p02"}
+{"q": "Which technique averages many decision trees?", "answer": "p05"}
+{"q": "How is the F1 score computed?", "answer": "p09"}
+{"q": "How do I reduce overfitting with a penalty on weight size?", "answer": "p13"}

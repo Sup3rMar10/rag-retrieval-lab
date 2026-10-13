@@ -1,0 +1,16 @@
+{"id": "p01", "text": "Gradient descent minimizes a loss function by repeatedly moving the model parameters in the direction opposite to the gradient. Each step is scaled by the learning rate."}
+{"id": "p02", "text": "The learning rate controls the step size of optimization. If it is too large training diverges or oscillates, and if it is too small convergence is very slow."}
+{"id": "p03", "text": "Batch normalization normalizes layer activations using the mean and variance of each mini-batch, which stabilizes training and allows higher learning rates."}
+{"id": "p04", "text": "Dropout randomly switches off a fraction of neurons during training so the network cannot rely on any single unit, which reduces overfitting."}
+{"id": "p05", "text": "A random forest trains many decision trees on bootstrapped samples with random feature subsets and averages their votes, which lowers variance compared with a single tree."}
+{"id": "p06", "text": "Gradient boosting builds trees sequentially, with each new tree fitted to the residual errors of the ensemble so far, and usually reaches high accuracy on tabular data."}
+{"id": "p07", "text": "K-means clustering assigns points to the nearest of k centroids, recomputes each centroid as the mean of its points, and repeats until assignments stop changing."}
+{"id": "p08", "text": "Principal component analysis projects data onto orthogonal directions of maximum variance, reducing the number of dimensions while keeping most of the information."}
+{"id": "p09", "text": "Precision is the share of predicted positives that are correct, while recall is the share of actual positives that were found. The F1 score is their harmonic mean."}
+{"id": "p10", "text": "ROC AUC measures how well a classifier ranks positive examples above negative ones across all decision thresholds, and equals the chance that a random positive outscores a random negative."}
+{"id": "p11", "text": "Cross-validation splits the data into folds, trains on all but one fold and validates on the held-out fold, then averages the scores to estimate generalization."}
+{"id": "p12", "text": "Overfitting happens when a model memorizes noise in the training set, giving excellent training accuracy but poor accuracy on unseen data."}
+{"id": "p13", "text": "L1 and L2 regularization add a penalty on the size of the weights to the loss. L1 can zero out weights entirely, while L2 shrinks them smoothly."}
+{"id": "p14", "text": "Self-attention lets each token in a transformer weigh every other token in the sequence when building its representation, so the model captures long-range dependencies."}
+{"id": "p15", "text": "Tokenization splits raw text into subword units such as byte-pair encodings, so language models can handle rare words with a fixed vocabulary."}
+{"id": "p16", "text": "Word embeddings map words to dense vectors so that words used in similar contexts end up close together, which captures semantic similarity."}
